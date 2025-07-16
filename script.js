@@ -13,5 +13,9 @@
 // Stampiamo tutti i passaggi in console.log() per capire cosa succede.
 
 // 1. Chiediamo all'utente di scegliere "pari" o "dispari"
-const choose = prompt("Scegli 'pari' o 'dispari':");
+let choose = prompt("Scegli 'pari' o 'dispari':");
 console.log("Hai scelto:", choose);
+
+// 2. Chiediamo all'utente un numero tra 1 e 5 (inserito come stringa)
+const inputUtente = prompt("Inserisci un numero da 1 a 5:");
+console.log("Hai scritto (stringa):", inputUtente);
