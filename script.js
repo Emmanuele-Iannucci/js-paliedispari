@@ -21,19 +21,8 @@ const inputUtente = prompt("Inserisci un numero da 1 a 5:");
 console.log("Hai scritto (stringa):", inputUtente);
 
 // 3. Convertiamo la stringa in numero
-function stringToNumb(stringa) {
-  if (stringa === "1") return 1;
-  if (stringa === "2") return 2;
-  if (stringa === "3") return 3;
-  if (stringa === "4") return 4;
-  if (stringa === "5") return 5;
-
-// se il numero è diverso da quelli previsti
-  return 0;
-}
-
-const userNumb = stringToNumb (inputUtente)
-console.log ("The number converted is:", userNumb)
+const inputUtente = parseInt(prompt("Inserisci un numero da 1 a 5:"))
+console.log ("The number converted is:", inputUtente)
 
 // 4. Generiamo un numero casuale
 function casualNumber() {
@@ -42,3 +31,19 @@ function casualNumber() {
 
 const computerNumb = casualNumber ()
 console.log ("computer numb is", computerNumb)
+
+// 5. Sommiamo i due numeri
+const sum = userNumb + computerNumb;
+console.log("sum is:", sum);
+
+// 6. Funzione che stabilisce se un numero è pari o dispari
+function EvenOrOdd (numero) {
+  if (numero % 2 === 0) {
+    return "pari";
+  } else {
+    return "dispari";
+  }
+}
+
+const risultato = EvenOrOdd (sum);
+console.log("Il risultato è:", risultato);
