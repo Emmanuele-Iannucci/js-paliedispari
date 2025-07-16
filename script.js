@@ -19,3 +19,18 @@ console.log("Hai scelto:", choose);
 // 2. Chiediamo all'utente un numero tra 1 e 5 (inserito come stringa)
 const inputUtente = prompt("Inserisci un numero da 1 a 5:");
 console.log("Hai scritto (stringa):", inputUtente);
+
+// 3. Convertiamo la stringa in numero
+function stringToNumb(stringa) {
+  if (stringa === "1") return 1;
+  if (stringa === "2") return 2;
+  if (stringa === "3") return 3;
+  if (stringa === "4") return 4;
+  if (stringa === "5") return 5;
+
+// se il numero è diverso da quelli previsti
+  return 0;
+}
+
+const userNumb = stringToNumb (inputUtente)
+console.log ("The number converted is:", userNumb)
