@@ -12,3 +12,6 @@
 
 // Stampiamo tutti i passaggi in console.log() per capire cosa succede.
 
+// 1. Chiediamo all'utente di scegliere "pari" o "dispari"
+const choose = prompt("Scegli 'pari' o 'dispari':");
+console.log("Hai scelto:", choose);
