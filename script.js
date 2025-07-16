@@ -21,7 +21,7 @@ const inputUtente = prompt("Inserisci un numero da 1 a 5:");
 console.log("Hai scritto (stringa):", inputUtente);
 
 // 3. Convertiamo la stringa in numero
-const inputUtente = parseInt(prompt("Inserisci un numero da 1 a 5:"))
+const inserire = parseInt(prompt("Inserisci un numero da 1 a 5:"))
 console.log ("The number converted is:", inputUtente)
 
 // 4. Generiamo un numero casuale
