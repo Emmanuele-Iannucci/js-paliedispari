@@ -34,3 +34,11 @@ function stringToNumb(stringa) {
 
 const userNumb = stringToNumb (inputUtente)
 console.log ("The number converted is:", userNumb)
+
+// 4. Generiamo un numero casuale
+function casualNumber() {
+  return 4; // Simuliamo come se fosse un numero casuale
+}
+
+const computerNumb = casualNumber ()
+console.log ("computer numb is", computerNumb)
