@@ -33,7 +33,7 @@ const computerNumb = casualNumber ()
 console.log ("computer numb is", computerNumb)
 
 // 5. Sommiamo i due numeri
-const sum = userNumb + computerNumb;
+const sum = inserire + computerNumb;
 console.log("sum is:", sum);
 
 // 6. Funzione che stabilisce se un numero è pari o dispari
