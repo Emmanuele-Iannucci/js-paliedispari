@@ -47,3 +47,16 @@ function EvenOrOdd (numero) {
 
 const risultato = EvenOrOdd (sum);
 console.log("Il risultato è:", risultato);
+
+// 7. Dichiariamo il vincitore
+
+function ChiHaVinto (scelta, risultatoFinale) {
+  if (scelta === risultatoFinale) {
+    return "Hai vinto!";
+  } else {
+    return "Hai perso.";
+  }
+}
+
+const esito = ChiHaVinto (choose, risultato);
+console.log(esito);
